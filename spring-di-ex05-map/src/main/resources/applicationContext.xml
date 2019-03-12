@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+	 <bean id="filmDirectors" class="by.htp.jd2.di_map.FilmDirectors">
+        <property name="directorMap">
+            <map>
+                <entry key="1" value="RajaMouli" />
+                <entry key="2" value="Steven Spielberg" />
+                <entry key="3" value="Martin Scorsese" />
+                <entry key="4" value="Alfred Hitchcock" />
+            </map>
+      </property>
+    </bean>
+
+
+
+</beans>
+
+
+
+
+
